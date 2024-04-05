@@ -47,7 +47,7 @@ VALUES
 -- Create table for Employees
 CREATE TABLE Employees (
     emp_no INT PRIMARY KEY,
-    emp_title_id VARCHAR(6),
+    emp_title_id VARCHAR(5),
     birth_date DATE,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
